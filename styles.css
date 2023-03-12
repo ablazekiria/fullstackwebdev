@@ -63,10 +63,7 @@ dl, ol, ul {
 }
 
 hr {
-    border-color: #626474 !important;
-    /* border-top: 3px dotted; */
-    border-top: 2px dashed;
-    border-color: #3a3b3f !important;
+    border-top: 1px dashed #3f4144;
     margin: 1.75rem 0;
     opacity: 1;
 }
@@ -1916,8 +1913,13 @@ p.codeburger-txt {
     padding-bottom: 1.75rem;
     margin-bottom: 1.75rem;
     border-bottom: 2px dashed #626474;
+
     padding-bottom: 2rem;
     margin-bottom: 2rem;
+
+    border-bottom: 1px dashed #3f4144;
+    padding-bottom: 2rem;
+    margin-bottom: 1.75rem;
 }
 
 .html-elements section:last-child .collapse.show {
