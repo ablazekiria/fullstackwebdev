@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KIRIA &ndash; Webdev</title>
+    <title>KIRIA &ndash; Webdev / Content</title>
     <link rel="icon" type="image/x-icon" href="images/kiriapaw-favicon12.png">
 
     <!-- // bootstrap 5.2.2 CSS only -->
@@ -56,7 +56,7 @@
                             <span>Content</span>
                         </div>
                     </a>
-                    <a href="pages/devnotes.html" class="main-content-menu__link">
+                    <a href="pages/notes.html" class="main-content-menu__link">
                         <div class="main-content-menu__item">
                             <i class="fa-solid fa-pen"></i>
                             <span>Notes</span>
@@ -85,10 +85,10 @@
 
                     <div class="content-table">
 
-                        <div class="content-table__header">
+                        <!-- <div class="content-table__header">
                             <h3 class="content-table__header-title">Content table</h3>
-                            <!-- <span class="content-table__header-lesson-count">154</span> -->
-                        </div>
+                            <span class="content-table__header-lesson-count">154</span>
+                        </div> -->
 
                         <!-- (1) Web Development Fundamentals -->
                         <div class="content-table-list">
@@ -182,7 +182,7 @@
                         
                         <h1 class="server-info__title">Kiria 키리아</h1>
                         <!-- <h2 class="server-info__subtitle">WebCraft&copy; &mdash; Advanced Web Development</h2> -->
-                        <h2 class="server-info__subtitle">Advanced Web Development</h2>
+                        <h2 class="server-info__subtitle">Full Stack Web App Development</h2>
                         <div class="server-info__details">
                             <span>Learn essential skills to master full stack web app development</span>
                         </div>
@@ -271,7 +271,7 @@
                                         Course Content
                                     </div>
                                 </a>
-                                <a href="pages/devnotes.html" class="main-content-menu__link">
+                                <a href="pages/notes.html" class="main-content-menu__link">
                                     <div class="main-content-menu__item">
                                         <i class="fa-solid fa-pen"></i>
                                         Notes
@@ -457,7 +457,7 @@
                                             <p>HTML stands for HyperText Markup language.</p>
                                             <p>Web pages are created using HyperText Markup Language (HTML), which ish the authoring language used to create documents on the World Wide Web.</p>
                                             <p>HTML uses a set of special instructions called tags or markup to define the structure and layout of a Web document and specify how the page is dispkayed in a browser.</p>
-                                            <p><a href="pages/devnotes.html#dn12">HTML is platform independent*</a>, meaning you can create or code an HTML file on one type of computer and then use a browser on another type of computer to view that file as a Web page.</p>
+                                            <p><a href="pages/notes.html#dn12">HTML is platform independent*</a>, meaning you can create or code an HTML file on one type of computer and then use a browser on another type of computer to view that file as a Web page.</p>
 
                                             <p>HTML is a computer language devised to allow website creation:
                                                 <ul>
@@ -492,14 +492,14 @@
 
                                             <h4 class="article-heading-h3"><i class="fa-solid fa-file-code h3icon"></i>HTML Boilerplate</h4>
                                             <div class="code mt0 mb16">
-                                                &lt;!DOCTYPE html&gt;<br>
-                                                    &lt;<span class="htmltag">html</span> <span class="htmlattr">lang</span>=<span class="htmlqt">&quot;</span><span class="htmlvalue">en</span><span class="htmlqt">&quot;</span>&gt;<br>
+                                                &lt;<span class="htmldoc">!DOCTYPE html</span>&gt;<br>
+                                                    &lt;<span class="htmltag">html</span> <span class="htmlattr">lang</span>=&quot;<span class="htmlvalue">en</span>&quot;&gt;<br>
                                                     &lt;<span class="htmltag">head</span>&gt;<br>
                                                     <div class="indent-block">
-                                                        &lt;<span class="htmltag">meta</span> <span class="htmlattr">charset</span>=<span class="htmlqt">&quot;</span><span class="htmlvalue">UTF-8</span><span class="htmlqt">&quot;</span>=&gt;<br>
+                                                        &lt;<span class="htmltag">meta</span> <span class="htmlattr">charset</span>=&quot;<span class="htmlvalue">UTF-8</span>&quot;=&gt;<br>
                                                         <span class="code-comment">&lt;!-- We no longer need to include the following line of code because Internet Explorer (IE) was deprecated on June 15, 2022 --&gt;<br></span>
-                                                        &lt;<span class="htmltag">meta</span> <span class="htmlattr">http-equiv</span>=<span class="htmlqt">&quot;</span><span class="htmlvalue">X-UA-Compatible</span><span class="htmlqt">&quot;</span> <span class="htmlattr">content</span>=<span class="htmlqt">&quot;</span><span class="htmlvalue">IE=edge</span><span class="htmlqt">&quot;</span>&gt;<br>
-                                                        &lt;<span class="htmltag">meta</span> <span class="htmlattr">name</span>=<span class="htmlqt">&quot;</span><span class="htmlvalue">viewport</span><span class="htmlqt">&quot;</span> <span class="htmlattr">content</span>=<span class="htmlqt">&quot;</span><span class="htmlvalue">width=device-width, initial-scale=1.0</span><span class="htmlqt">&quot;</span>&gt;<br>
+                                                        &lt;<span class="htmltag">meta</span> <span class="htmlattr">http-equiv</span>=&quot;<span class="htmlvalue">X-UA-Compatible</span>&quot; <span class="htmlattr">content</span>=&quot;<span class="htmlvalue">IE=edge</span>&quot;&gt;<br>
+                                                        &lt;<span class="htmltag">meta</span> <span class="htmlattr">name</span>=&quot;<span class="htmlvalue">viewport</span>&quot; <span class="htmlattr">content</span>=&quot;<span class="htmlvalue">width=device-width, initial-scale=1.0</span>&quot;&gt;<br>
                                                         &lt;<span class="htmltag">title</span>&gt;Document&lt;/<span class="htmltag">title</span>&gt;<br>
                                                     </div>
                                                     &lt;/<span class="htmltag">head</span>&gt;<br>
@@ -523,8 +523,8 @@
 
                                                 <div class="w70 pl28">
                                                     <div class="code mt0 mb0">
-                                                        &lt;!DOCTYPE html&gt;<br>
-                                                            &lt;<span class="htmltag">bun</span> <span class="htmlattr">type</span>=<span class="htmlqt">&quot;</span><span class="htmlvalue">bagel</span><span class="htmlqt">&quot;</span> <span class="htmlattr">topping</span>=<span class="htmlqt">&quot;</span><span class="htmlvalue">sesame</span><span class="htmlqt">&quot;</span>&gt;<br>
+                                                        &lt;<span class="htmldoc">!DOCTYPE html</span>&gt;<br>
+                                                            &lt;<span class="htmltag">bun</span> <span class="htmlattr">type</span>=&quot;<span class="htmlvalue">bagel</span>&quot; <span class="htmlattr">topping</span>=&quot;<span class="htmlvalue">sesame</span>&quot;&gt;<br>
                                                             <!-- <div class="indent-block">  -->
                                                             <!-- </span><span class="code-comment">&lt;!-- header --&gt;</span><br> -->
                                                             &lt;<span class="htmltag">lettuce</span>&gt;<br>
@@ -548,7 +548,7 @@
 
                                             <!-- <div class="code mt0">
                                                 &lt;!DOCTYPE html&gt;<br>
-                                                    &lt;<span class="htmltag">bun</span> <span class="htmlattr">type</span>=<span class="htmlqt">&quot;</span><span class="htmlvalue">bagel</span><span class="htmlqt">&quot;</span> <span class="htmlattr">topping</span>=<span class="htmlqt">&quot;</span><span class="htmlvalue">white-sesame</span><span class="htmlqt">&quot;</span>&gt;<br>
+                                                    &lt;<span class="htmltag">bun</span> <span class="htmlattr">type</span>=&quot;<span class="htmlvalue">bagel</span>&quot; <span class="htmlattr">topping</span>=&quot;<span class="htmlvalue">white-sesame</span>&quot;&gt;<br>
                                                     &lt;<span class="htmltag">lettuce</span>&gt;<br>
                                                     <div class="indent-block">
                                                         &lt;<span class="htmltag">pickledcucumber</span>&gt;<br>
@@ -799,8 +799,8 @@
                                                 <div class="code mt0">
                                                     &lt;<span class="htmltag">section</span>&gt;<br>
                                                     <div class="indent-block">
-                                                        &lt;<span class="htmltag">a</span> <span class="htmlattr">href</span>=<span class="htmlqt">&quot;</span><span class="htmlvalue">#</span><span class="htmlqt">&quot;</span>&gt;Reply&lt;/<span class="htmltag">a</span>&gt;<br>
-                                                        &lt;<span class="htmltag">a</span> <span class="htmlattr">href</span>=<span class="htmlqt">&quot;</span><span class="htmlvalue">#</span><span class="htmlqt">&quot;</span>&gt;Delete&lt;/<span class="htmltag">a</span>&gt;
+                                                        &lt;<span class="htmltag">a</span> <span class="htmlattr">href</span>=&quot;<span class="htmlvalue">#</span>&quot;&gt;Reply&lt;/<span class="htmltag">a</span>&gt;<br>
+                                                        &lt;<span class="htmltag">a</span> <span class="htmlattr">href</span>=&quot;<span class="htmlvalue">#</span>&quot;&gt;Delete&lt;/<span class="htmltag">a</span>&gt;
                                                     </div>
                                                     &lt;/<span class="htmltag">section</span>&gt;
                                                 </div>
@@ -808,10 +808,10 @@
                                                 <div class="code mt0">
                                                     &lt;<span class="htmltag">section</span>&gt;<br>
                                                     <div class="indent-block">
-                                                        &lt;<span class="htmltag">button</span> <span class="htmlattr">class</span>=<span class="htmlqt">&quot;</span><span class="htmlvalue">reply</span><span class="htmlqt">&quot;</span>&gt;Reply&lt;/<span class="htmltag">button</span>&gt;<br>
-                                                        &lt;<span class="htmltag">button</span> <span class="htmlattr">class</span>=<span class="htmlqt">&quot;</span><span class="htmlvalue">reply-all</span><span class="htmlqt">&quot;</span>&gt;Reply to all&lt;/<span class="htmltag">button</span>&gt;<br>
-                                                        &lt;<span class="htmltag">button</span> <span class="htmlattr">class</span>=<span class="htmlqt">&quot;</span><span class="htmlvalue">fwd</span><span class="htmlqt">&quot;</span>&gt;Forward&lt;/<span class="htmltag">button</span>&gt;<br>
-                                                        &lt;<span class="htmltag">button</span> <span class="htmlattr">class</span>=<span class="htmlqt">&quot;</span><span class="htmlvalue">del</span><span class="htmlqt">&quot;</span>&gt;Delete&lt;/<span class="htmltag">button</span>&gt;
+                                                        &lt;<span class="htmltag">button</span> <span class="htmlattr">class</span>=&quot;<span class="htmlvalue">reply</span>&quot;&gt;Reply&lt;/<span class="htmltag">button</span>&gt;<br>
+                                                        &lt;<span class="htmltag">button</span> <span class="htmlattr">class</span>=&quot;<span class="htmlvalue">reply-all</span>&quot;&gt;Reply to all&lt;/<span class="htmltag">button</span>&gt;<br>
+                                                        &lt;<span class="htmltag">button</span> <span class="htmlattr">class</span>=&quot;<span class="htmlvalue">fwd</span>&quot;&gt;Forward&lt;/<span class="htmltag">button</span>&gt;<br>
+                                                        &lt;<span class="htmltag">button</span> <span class="htmlattr">class</span>=&quot;<span class="htmlvalue">del</span>&quot;&gt;Delete&lt;/<span class="htmltag">button</span>&gt;
                                                     </div>
                                                   &lt;/<span class="htmltag">section</span>&gt;
                                                 </div>
@@ -896,9 +896,9 @@
                                                     <div class="code mt0 mb0">
                                                         &lt;<span class="htmltag">p</span>&gt;You can reach GRIMRIN at:&lt;/<span class="htmltag">p</span>&gt;<br>
                                                         &lt;<span class="htmltag">ul</span>&gt;<br>
-                                                        <span class="indent"></span>&lt;<span class="htmltag">li</span>&gt;&lt;<span class="htmltag">a</span> <span class="htmlattr">href</span>=<span class="htmlqt">&quot;</span><span class="htmlvalue">https://kiria.dev</span><span class="htmlqt">&quot;</span>&gt;www.kiria.dev&lt;/<span class="htmltag">a</span>&gt;&lt;/<span class="htmltag">li</span>&gt;<br>
-                                                        <span class="indent"></span>&lt;<span class="htmltag">li</span>&gt;&lt;<span class="htmltag">a</span> <span class="htmlattr">href</span>=<span class="htmlqt">&quot;</span><span class="htmlvalue">mailto:kiriashinhwa@gmail.com</span><span class="htmlqt">&quot;</span>&gt;kiriashinhwa@gmail.com&lt;/<span class="htmltag">a</span>&gt;&lt;/<span class="htmltag">li</span>&gt;<br>
-                                                        <span class="indent"></span>&lt;<span class="htmltag">li</span>&gt;&lt;<span class="htmltag">a</span> <span class="htmlattr">href</span>=<span class="htmlqt">&quot;</span><span class="htmlvalue">tel:+16098889889</span><span class="htmlqt">&quot;</span>&gt;(609) 888 9889 &lt;/<span class="htmltag">a</span>&gt;&lt;/<span class="htmltag">li</span>&gt;<br>
+                                                        <span class="indent"></span>&lt;<span class="htmltag">li</span>&gt;&lt;<span class="htmltag">a</span> <span class="htmlattr">href</span>=&quot;<span class="htmlvalue">https://kiria.dev</span>&quot;&gt;www.kiria.dev&lt;/<span class="htmltag">a</span>&gt;&lt;/<span class="htmltag">li</span>&gt;<br>
+                                                        <span class="indent"></span>&lt;<span class="htmltag">li</span>&gt;&lt;<span class="htmltag">a</span> <span class="htmlattr">href</span>=&quot;<span class="htmlvalue">mailto:kiriashinhwa@gmail.com</span>&quot;&gt;kiriashinhwa@gmail.com&lt;/<span class="htmltag">a</span>&gt;&lt;/<span class="htmltag">li</span>&gt;<br>
+                                                        <span class="indent"></span>&lt;<span class="htmltag">li</span>&gt;&lt;<span class="htmltag">a</span> <span class="htmlattr">href</span>=&quot;<span class="htmlvalue">tel:+16098889889</span>&quot;&gt;(609) 888 9889 &lt;/<span class="htmltag">a</span>&gt;&lt;/<span class="htmltag">li</span>&gt;<br>
                                                         &lt;/<span class="htmltag">ul</span>&gt;
                                                     </div>
                                                     <!-- ** beautified code block -->
@@ -910,7 +910,7 @@
 
                                                             &lt;<span class="htmltag">li</span>&gt;<br>
                                                                 <div class="indent-block">
-                                                                    &lt;<span class="htmltag">a</span> <span class="htmlattr">href</span>=<span class="htmlqt">&quot;</span><span class="htmlvalue">https://grimrin.com</span><span class="htmlqt">&quot;</span>&gt;<br>
+                                                                    &lt;<span class="htmltag">a</span> <span class="htmlattr">href</span>=&quot;<span class="htmlvalue">https://grimrin.com</span>&quot;&gt;<br>
                                                                         <span class="indent"></span>www.grimrin.com<br>
                                                                     &lt;/<span class="htmltag">a</span>&gt;
                                                                 </div>
@@ -918,7 +918,7 @@
 
                                                             &lt;<span class="htmltag">li</span>&gt;<br>
                                                                 <div class="indent-block">
-                                                                    &lt;<span class="htmltag">a</span> <span class="htmlattr">href</span>=<span class="htmlqt">&quot;</span><span class="htmlvalue">mailto:grimrindemiurge@gmail.com</span><span class="htmlqt">&quot;</span>&gt;<br>
+                                                                    &lt;<span class="htmltag">a</span> <span class="htmlattr">href</span>=&quot;<span class="htmlvalue">mailto:grimrindemiurge@gmail.com</span>&quot;&gt;<br>
                                                                         <span class="indent"></span>grimrindemiurge@gmail.com<br>
                                                                     &lt;/<span class="htmltag">a</span>&gt;
                                                                 </div>
@@ -926,7 +926,7 @@
 
                                                             &lt;<span class="htmltag">li</span>&gt;<br>
                                                                 <div class="indent-block">
-                                                                    &lt;<span class="htmltag">a</span> <span class="htmlattr">href</span>=<span class="htmlqt">&quot;</span><span class="htmlvalue">tel:+16098889889</span><span class="htmlqt">&quot;</span>&gt;<br>
+                                                                    &lt;<span class="htmltag">a</span> <span class="htmlattr">href</span>=&quot;<span class="htmlvalue">tel:+16098889889</span>&quot;&gt;<br>
                                                                         <span class="indent"></span>+1 (609) 888 9889<br>
                                                                     &lt;/<span class="htmltag">a</span>&gt;</div>
                                                             &lt;/<span class="htmltag">li</span>&gt;<br>
@@ -1090,7 +1090,7 @@
                                                     <p class="mb16">Linking to an absolute URL</p>
                                                     <div class="htmltag-a-example">
                                                         <div class="code mt0 mb0">
-                                                            &lt;<span class="htmltag">a</span> <span class="htmlattr">href</span>=<span class="htmlqt">&quot;</span><span class="htmlvalue">https://www.kiria.dev</span><span class="htmlqt">&quot;</span>&gt; Kiria &lt;/<span class="htmltag">a</span>&gt;
+                                                            &lt;<span class="htmltag">a</span> <span class="htmlattr">href</span>=&quot;<span class="htmlvalue">https://www.kiria.dev</span>&quot;&gt; Kiria &lt;/<span class="htmltag">a</span>&gt;
                                                         </div>
                                                         <div class="code-output mb24">
                                                             <p>
@@ -1104,9 +1104,9 @@
                                                     <p>Linking to relative URLs</p>
                                                     <div class="htmltag-a-example">
                                                         <div class="code mt0 mb0">
-                                                            &lt;<span class="htmltag">a</span> <span class="htmlattr">href</span>=<span class="htmlqt">&quot;</span><span class="htmlvalue">//example.com</span><span class="htmlqt">&quot;</span>&gt;Scheme-relative URL&lt;/<span class="htmltag">a</span>&gt;<br>
-                                                            &lt;<span class="htmltag">a</span> <span class="htmlattr">href</span>=<span class="htmlqt">&quot;</span><span class="htmlvalue">/en-US/docs/Web/HTML</span><span class="htmlqt">&quot;</span>&gt;Origin-relative URL&lt;/<span class="htmltag">a</span>&gt;<br>
-                                                            &lt;<span class="htmltag">a</span> <span class="htmlattr">href</span>=<span class="htmlqt">&quot;</span><span class="htmlvalue">./p</span><span class="htmlqt">&quot;</span>&gt;Directory-relative URL&lt;/<span class="htmltag">a</span>&gt;
+                                                            &lt;<span class="htmltag">a</span> <span class="htmlattr">href</span>=&quot;<span class="htmlvalue">//example.com</span>&quot;&gt;Scheme-relative URL&lt;/<span class="htmltag">a</span>&gt;<br>
+                                                            &lt;<span class="htmltag">a</span> <span class="htmlattr">href</span>=&quot;<span class="htmlvalue">/en-US/docs/Web/HTML</span>&quot;&gt;Origin-relative URL&lt;/<span class="htmltag">a</span>&gt;<br>
+                                                            &lt;<span class="htmltag">a</span> <span class="htmlattr">href</span>=&quot;<span class="htmlvalue">./p</span>&quot;&gt;Directory-relative URL&lt;/<span class="htmltag">a</span>&gt;
                                                         </div>
                                                         <div class="code-output mb24">
                                                             <p>
@@ -1123,10 +1123,10 @@
                                                     <div class="htmltag-a-example">
                                                         <div class="code mt0">
                                                             <span class="code-comment">&lt;!-- &lt;a&gt; element links to the section below --&gt;</span><br>
-                                                            &lt;<span class="htmltag">p</span>&gt;&lt;<span class="htmltag">a</span> <span class="htmlattr">href</span>=<span class="htmlqt">&quot;</span><span class="htmlvalue">#Section_further_down</span><span class="htmlqt">&quot;</span>&gt;Jump to the heading below&lt;/<span class="htmltag">a</span>&gt;&lt;/<span class="htmltag">p</span>&gt;<br>
+                                                            &lt;<span class="htmltag">p</span>&gt;&lt;<span class="htmltag">a</span> <span class="htmlattr">href</span>=&quot;<span class="htmlvalue">#Section_further_down</span>&quot;&gt;Jump to the heading below&lt;/<span class="htmltag">a</span>&gt;&lt;/<span class="htmltag">p</span>&gt;<br>
                                                             <br>
                                                             <span class="code-comment">&lt;!-- Heading to link to --&gt;</span><br>
-                                                            &lt;<span class="htmltag">h2</span> <span class="htmlattr">id</span>=<span class="htmlqt">&quot;</span><span class="htmlvalue">Section_further_down</span><span class="htmlqt">&quot;</span>&gt;Section further down&lt;/<span class="htmltag">h2</span>&gt;
+                                                            &lt;<span class="htmltag">h2</span> <span class="htmlattr">id</span>=&quot;<span class="htmlvalue">Section_further_down</span>&quot;&gt;Section further down&lt;/<span class="htmltag">h2</span>&gt;
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1136,7 +1136,7 @@
                                                     <p>To create links that open in the user's email program to let them send a new message, use the <span class="c">mailto:</span> scheme:</p>
                                                     <div class="htmltag-a-example">
                                                         <div class="code mt0">
-                                                            &lt;<span class="htmltag">a</span> <span class="htmlattr">href</span>=<span class="htmlqt">&quot;</span><span class="htmlvalue">mailto:hello@kiria.dev</span><span class="htmlqt">&quot;</span>&gt;Send email to Kiria&lt;/<span class="htmltag">a</span>&gt;
+                                                            &lt;<span class="htmltag">a</span> <span class="htmlattr">href</span>=&quot;<span class="htmlvalue">mailto:hello@kiria.dev</span>&quot;&gt;Send email to Kiria&lt;/<span class="htmltag">a</span>&gt;
                                                         </div>
                                                         <div class="code-output mb24">
                                                             <p>
@@ -1151,8 +1151,8 @@
                                                     <p>Linking to telephone numbers</p>
                                                     <div class="htmltag-a-example">
                                                         <div class="code mt0">
-                                                            &lt;<span class="htmltag">a</span> <span class="htmlattr">href</span>=<span class="htmlqt">&quot;</span><span class="htmlvalue">tel:+49.157.0156</span><span class="htmlqt">&quot;</span>&gt;+49 157 0156&lt;/<span class="htmltag">a</span>&gt;<br>
-                                                            &lt;<span class="htmltag">a</span> <span class="htmlattr">href</span>=<span class="htmlqt">&quot;</span><span class="htmlvalue">tel:+1(555)5309</span><span class="htmlqt">&quot;</span>&gt;(555) 5309&lt;/<span class="htmltag">a</span>&gt;
+                                                            &lt;<span class="htmltag">a</span> <span class="htmlattr">href</span>=&quot;<span class="htmlvalue">tel:+49.157.0156</span>&quot;&gt;+49 157 0156&lt;/<span class="htmltag">a</span>&gt;<br>
+                                                            &lt;<span class="htmltag">a</span> <span class="htmlattr">href</span>=&quot;<span class="htmlvalue">tel:+1(555)5309</span>&quot;&gt;(555) 5309&lt;/<span class="htmltag">a</span>&gt;
                                                         </div>
                                                         <div class="code-output mb24">
                                                             <p>
@@ -1178,12 +1178,12 @@
                                                     <div class="code mt0">
                                                         &lt;<span class="htmltag">body</span>&gt;<br>
                                                         <div class="indent-block">
-                                                            &lt;<span class="htmltag">a</span> <span class="htmlattr">href</span>=<span class="htmlqt">&quot;</span><span class="htmlvalue">#content</span><span class="htmlqt">&quot;</span> <span class="htmlattr">class</span>=<span class="htmlqt">&quot;</span><span class="htmlvalue">skip-link</span><span class="htmlqt">&quot;</span>&gt;<br>
+                                                            &lt;<span class="htmltag">a</span> <span class="htmlattr">href</span>=&quot;<span class="htmlvalue">#content</span>&quot; <span class="htmlattr">class</span>=&quot;<span class="htmlvalue">skip-link</span>&quot;&gt;<br>
                                                             <span class="indent"></span>Skip to main content<br>
                                                             &lt;/<span class="htmltag">a</span>&gt;<br><br>
                                                             &lt;<span class="htmltag">header</span>&gt;&hellip;&lt;/<span class="htmltag">header</span>&gt;<br><br>
                                                             <span class="code-comment">&lt;!-- The skip link jumps to here --&gt;<br></span>
-                                                            &lt;<span class="htmltag">main</span> <span class="htmlattr">id</span>=<span class="htmlqt">&quot;</span><span class="htmlvalue">content</span><span class="htmlqt">&quot;</span>&gt;&lt;/<span class="htmltag">main</span>&gt;<br>
+                                                            &lt;<span class="htmltag">main</span> <span class="htmlattr">id</span>=&quot;<span class="htmlvalue">content</span>&quot;&gt;&lt;/<span class="htmltag">main</span>&gt;<br>
                                                         </div>
                                                         &lt;/<span class="htmltag">body</span>&gt;
                                                     </div>
